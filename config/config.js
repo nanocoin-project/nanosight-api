@@ -68,8 +68,8 @@ var ignoreCache = process.env.INSIGHT_IGNORE_CACHE || 0;
 
 var bitcoindConf = {
   protocol: process.env.BITCOIND_PROTO || 'http',
-  user: process.env.BITCOIND_USER || 'user',
-  pass: process.env.BITCOIND_PASS || 'pass',
+  user: process.env.BITCOIND_USER || 'nanocoinrpc',
+  pass: process.env.BITCOIND_PASS || '6yVkXPy5vGsEvAP7YFKCZ1YchZuPFNa9pP2hHW9E6RSZ',
   host: process.env.BITCOIND_HOST || '127.0.0.1',
   port: process.env.BITCOIND_PORT || b_port,
   p2pPort: process.env.BITCOIND_P2P_PORT || p2p_port,
