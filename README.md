@@ -128,7 +128,7 @@ once nanocoind is restarted.
 To store the blockchain and address related information, *nanosight-api* uses LevelDB.
 Two DBs are created: txs and blocks. By default these are stored on
 
-  ``~/.cannsight/``
+  ``~/.nanosight/``
 
 This can be changed at config/config.js.
 
