@@ -62,7 +62,7 @@ if (!dataDir) {
 }
 dataDir += network === 'testnet' ? 'testnet' : '';
 
-var safeConfirmations = process.env.INSIGHT_SAFE_CONFIRMATIONS || 6;
+var safeConfirmations = process.env.INSIGHT_SAFE_CONFIRMATIONS || 10;
 var ignoreCache = process.env.INSIGHT_IGNORE_CACHE || 0;
 
 
